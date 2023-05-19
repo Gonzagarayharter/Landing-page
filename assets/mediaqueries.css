@@ -212,7 +212,7 @@
 
     .footer-links {
         display: flex;
-        gap: 60px;
+        gap: 30px;
         justify-content: center;
         align-items: center;
     }
