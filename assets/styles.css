@@ -55,7 +55,7 @@ header {
 }
 
 body {
-    background: #000;
+    background: #120412;
 }
 
 /* Main */
@@ -145,10 +145,17 @@ main {
     width: 250px;
 }
 
-hr{
+.linea {
     border-color: #6d0e93;
     width: 70%;
     margin: 40px 0px 40px 0px;
+}
+
+/* Menu */
+
+#menu-toggle,
+.menu-label{
+    display: none;
 }
 
 /* Section Nosotros */
@@ -175,4 +182,166 @@ hr{
 
 .nosotros-info p {
     font-size: 17px;
+}
+
+/* Section Cards */
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-text h2 {
+    font-size: 50px;
+    color: #25b6c3;
+}
+
+.card-text p {
+    font-size: 17px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #6d0e93;
+    align-items: center;
+    text-align: center;
+    gap:10px;    
+    background: #400955;
+}
+
+.card-info img {
+    width: 70px;
+}
+
+.card-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-info p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+/* Contact Us */
+
+#contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-us-container h2 {
+    font-size: 50px;
+    color: #24acac;
+    text-align: center;
+}
+
+.contact-us-info-shops {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    border: 1px dashed #6d0e93;
+}
+
+.contact-us-info-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-us-info-shop ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-us-info-shop li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-us-info-shop h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-us-info-shop img {
+    width: 30px;
+}
+
+.contact-us-info-shop img {
+    width: 30px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 40px;
+    background-color: #400955;
+    border-top: 1px solid #583A9A;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer-links a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
 }

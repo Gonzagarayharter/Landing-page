@@ -7,6 +7,8 @@
     <title>GG Games</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Mediaqueries -->
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,6 +25,8 @@
         class="logo"
       />
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label"><img src="./assets/img/menu.png" alt="menu" class="menu-icon"></label>
+        <input type="checkbox" id="menu-toggle">
         <ul class="navbar-list">
           <li><a href="#">HOME</a></li>
           <li><a href="#">OFERTAS</a></li>
@@ -60,7 +64,7 @@
           />
         </div>
       </section>
-      <hr>
+      <hr class="linea">
       <section id="nosotros">
         <div class="nosotros-info">
           <h2>SOBRE NOSOTROS</h2>
@@ -68,6 +72,65 @@
           </p>
         </div>
       </section>
+      <section id="cards">
+        <div class="card-text">
+          <h2>COMPRA EN UN LUGAR SEGURO</h2>
+          <p>Descubre el poder de la diversión digital: Únete a nosotros y vive aventuras infinitas.</p>
+        </div>
+        <div class="cards-container">
+          <div class="card-info">
+            <img src="./assets/img/consola.png" alt="Joystick">
+            <h3>Amplia selección de títulos</h3>
+            <p>Ofrecemos una extensa biblioteca de videojuegos digitales que abarca una amplia gama de géneros y plataformas. Ya sea que los jugadores busquen los últimos lanzamientos, clásicos atemporales o juegos indie innovadores, nuestra colección diversa tiene algo para todos los gustos.</p>
+          </div>
+          <div class="card-info">
+            <img src="./assets/img/experiencia.png" alt="Joystick">
+            <h3>Experiencia y confiabilidad</h3>
+            <p>Con años de experiencia en la industria de los videojuegos digitales, nos hemos ganado la confianza de nuestros clientes al ofrecer un servicio confiable y de calidad. Estamos comprometidos en proporcionar una experiencia de compra fácil y segura, garantizando la autenticidad de los productos digitales y brindando un soporte eficiente en caso de cualquier problema o consulta.</p>
+          </div>
+          <div class="card-info">
+            <img src="./assets/img/etiqueta-de-descuento.png" alt="Joystick">
+            <h3>Promociones exclusivas</h3>
+            <p>Valoramos a nuestros clientes y nos esforzamos por brindarles beneficios adicionales. Regularmente ofrecemos ofertas y promociones exclusivas, como descuentos especiales, paquetes de juegos temáticos, recompensas por lealtad y regalos sorpresa. Estas oportunidades permiten a nuestros clientes obtener más valor por su dinero y disfrutar de una experiencia de compra aún más gratificante.</p>
+          </div>
+        </div>
+      </section>
+      <hr class="linea">
+      <section id="contact-us">
+        <div class="contact-us-container">
+            <h2>CONTÁCTANOS</h2>
+            <div class="contact-us-info-shops">
+              <div class="contact-us-info-shop">
+                <h3>Galerías Pacífico</h3>
+                <ul>                  
+                  <li><img src="./assets/img/gmail.png" alt="Email">Email@gmail.com</li>                  
+                  <li><img src="./assets/img/ubicacion.png" alt="Ubicación">Av. Córdoba 550, C1054 CABA</li>                  
+                  <li><img src="./assets/img/llamada-telefonica.png" alt="Whatsapp">5555-5110</li>
+                </ul>                
+              </div>
+              <div class="contact-us-info-shop">
+                <h3>Galerías Pacífico</h3>
+                <ul>                  
+                  <li><img src="./assets/img/gmail.png" alt="Email">Email@gmail.com</li>                  
+                  <li><img src="./assets/img/ubicacion.png" alt="Ubicación">Av. Córdoba 550, C1054 CABA</li>                  
+                  <li><img src="./assets/img/llamada-telefonica.png" alt="Whatsapp">5555-5110</li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+          <div class="contact-us-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.194413831936!2d-58.37964981035664!3d-34.59924508751999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb0b1afcaf%3A0x8d53a5cf4f399e9c!2zR2FsZXLDrWFzIFBhY8OtZmljbw!5e0!3m2!1ses!2sar!4v1684511555042!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </section>
     </main>
+    <footer>
+      <div>
+        <ul class="footer-links">
+          <li><img src="./assets/img/instagram.png" alt="Instagram"><a href="#">Instagram</a></li>
+          <li><img src="./assets/img/facebook.png" alt="Facebook"><a href="#">Facebook</a></li>
+          <li><img src="./assets/img/gorjeo.png" alt="Twitter"> <a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
